@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        border: 1px solid black;
+        width: 30%;
+        height: 300px;
+        background-color: red;
+    }
+    
+    .container:hover {
+        background-color: red;
+        background-image: url(https://th.bing.com/th/id/OIP.IhiqRWFamp-enjV2csKdzwHaE8?w=257&h=180&c=7&r=0&o=5&dpr=1.8&pid=1.7);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #onhoverfb {
+        visibility: hidden;
+        margin-top: 40px;
+    }
+    
+    #facebookicon:hover~#onhoverfb {
+        visibility: visible;
+    }
+    
+    .text {
+        visibility: hidden;
+    }
+    
+    .text:hover {
+        visibility: visible;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+
+        <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut mollitia nobis exercitationem illo quia nisi!
+        </p>
+    </div>
+
+
+
+</body>
+
+</html>
